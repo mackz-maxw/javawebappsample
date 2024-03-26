@@ -9,12 +9,6 @@
             <param-name>jersey.config.server.provider.packages</param-name>
             <param-value>ms.kenchen</param-value>
         </init-param>
-        <!-- Set response timeout to 60 seconds (60000 milliseconds) -->
-        <init-param>
-            <param-name>jersey.config.server.response.timeout</param-name>
-            <param-value>60000</param-value>
-        </init-param>
-        <!-- Set response timeout to 60 seconds (60000 milliseconds) -->
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
